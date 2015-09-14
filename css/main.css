@@ -1,0 +1,306 @@
+@font-face {
+    font-family: 'ostrich_sansbold';
+    src: url('ostrich-bold-webfont.eot');
+    src: url('ostrich-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('ostrich-bold-webfont.woff2') format('woff2'),
+    url('ostrich-bold-webfont.woff') format('woff'),
+    url('ostrich-bold-webfont.ttf') format('truetype'),
+    url('ostrich-bold-webfont.svg#ostrich_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ostrich_sansbold';
+    src: url('ostrichsans-bold-webfont.eot');
+    src: url('ostrichsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('ostrichsans-bold-webfont.woff2') format('woff2'),
+    url('ostrichsans-bold-webfont.woff') format('woff'),
+    url('ostrichsans-bold-webfont.ttf') format('truetype'),
+    url('ostrichsans-bold-webfont.svg#ostrich_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+button {
+    margin: 5px;
+}
+
+#wrapper {
+    background: #700000;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #700000;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    background: black;
+}
+
+.logo {
+    font-family: 'ostrich_sansbold', sans-serif;
+    font-size: 80px;
+    padding: 10px 10px 0;
+    margin: 0;
+    color: white;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 10px;
+    display: inline-block;
+ }
+
+#nav li {
+    display: inline;
+}
+
+#navBar a {
+    font-family: sans-serif;
+    font-size: 24px;
+    padding-right: 5px;
+    padding-left: 7px;
+    color: white;
+    text-decoration: none;
+    border-right: solid 5px #700000;
+}
+
+#navBar a:hover {
+    background: #700000;
+    color: white;
+}
+
+#loginNav {
+    float: right;
+    display: inline;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+#loginNav ul {
+    list-style-type: none;
+}
+
+#loginNav a {
+    color: white;
+}
+
+#loginNav input {
+    margin-bottom: 5px;
+}
+
+#infoNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 10px 10px;
+}
+
+#infoNav li {
+    display: inline;
+}
+
+#infoNav a {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 7px;
+    color: black;
+    text-decoration: none;
+    border-right: solid 5px #700000;
+}
+
+#infoNav a:hover {
+    background: #700000;
+    color: white;
+}
+
+#content {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+}
+
+#content p {
+    font-size: 18px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    clear: both;
+}
+
+#footer p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer img {
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    #header h1 {
+        font-size: 50px;
+    }
+}
+
+dt {
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.storeItems {
+    text-align: center;
+}
+
+.storeItem {
+    display: inline-block;
+    background-color: white;
+    margin: 5px;
+    padding: 5px;
+    max-width: 260px;
+    min-height: 375px;
+    text-align: left;
+}
+
+.storeItem p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.itemImage {
+    width: 260px;
+    height: auto;
+}
+
+.itemName {
+    font-weight: bold;
+}
+
+.storeEdit {
+    border-collapse: collapse;
+}
+
+.storeEdit th, .storeEdit td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.storeEdit img {
+    width: 50px;
+    height: auto;
+}
+
+.storeEdit .col1 {
+    width: 65px;
+    text-align: center;
+}
+
+.storeEdit .col2 {
+    width: 100px;
+    padding: 5px;
+}
+
+.storeEdit .col3 {
+    width: 250px;
+    padding: 5px;
+}
+
+.storeEdit .col4 {
+    width: 500px;
+    padding: 5px;
+}
+
+.storeEdit .col5 {
+    width: 100px;
+    padding: 5px;
+}
+
+.login {
+    text-align: center;
+    width: 200px;
+    background-color: #700000;
+    margin: auto;
+    box-shadow: 15px 15px 45px black;
+}
+
+.login ul {
+    padding: 20px 0 20px 0;
+}
+
+.login li {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.registerBox {
+    margin: auto;
+}
+
+.registerBox tr {
+    height: 25px;
+}
+
+.cartContents {
+    margin: auto;
+}
+
+.cartContents th {
+    text-align: left;
+}
+
+.cartContents td {
+    vertical-align: top;
+    height: 20px;
+}
+
+.cartContents .col1 {
+     width: 300px;
+ }
+
+.cartContents .col2 {
+    text-align: right;
+}
+
+.cartTotal {
+    font-weight: bold;
+    text-align: right;
+}
+
+.cartTotal td {
+    border-top: 1px solid black;
+    border-collapse: collapse;
+}
+
+.userList {
+    border: 1px solid black;
+}
+
+.userList th, .userList td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 3px 5px;
+}
+
+.editUser td {
+    padding: 3px 5px;
+}
